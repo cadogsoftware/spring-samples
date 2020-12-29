@@ -1,1 +1,1 @@
-# spring-samples
+# Sample Spring projects

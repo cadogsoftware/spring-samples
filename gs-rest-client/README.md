@@ -1,5 +1,4 @@
 # Sample Spring REST client
-
 Taken from here https://spring.io/guides/gs/consuming-rest/
 
 ## Run like this:

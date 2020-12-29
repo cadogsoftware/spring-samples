@@ -15,4 +15,4 @@ or
 
 GET http://localhost:8080/greeting?name=Rich
 
-## Notes 7
+## Notes 8

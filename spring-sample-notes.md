@@ -7,7 +7,6 @@ Deploying
 
 
 https://spring.io/guides/gs/validating-form-input/
-https://spring.io/guides/gs/serving-web-content/
 https://spring.io/guides/gs/handling-form-submission/
 https://spring.io/guides/gs/testing-web/
 
@@ -28,6 +27,10 @@ https://spring.io/guides/gs/circuit-breaker/
 https://spring.io/guides/gs/testing-restdocs/
 
 Longer: https://spring.io/guides/topicals/spring-boot-docker/
+
+Spring dev tools
+
+
 
 
 ## Notes

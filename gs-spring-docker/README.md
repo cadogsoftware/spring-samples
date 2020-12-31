@@ -5,4 +5,10 @@
 3. Run this to run the app: docker run -p 8080:8080 richtest/gs-spring-boot-docker 
 4. Go to http://localhost:8080
 
-## TODO:
+## An alternative way to build the image:
+This does the mvn package step and the build image step:
+./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=richtest/gs-spring-boot-docker
+
+Then you can run as normal:
+docker run -p 8080:8080 richtest/gs-spring-boot-docker
+

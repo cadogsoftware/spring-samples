@@ -6,4 +6,3 @@
 4. Go to http://localhost:8080
 
 ## TODO:
-Use Java 11 in the pom and the Dockerfile

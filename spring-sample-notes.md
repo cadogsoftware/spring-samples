@@ -30,8 +30,6 @@ Longer: https://spring.io/guides/topicals/spring-boot-docker/
 Spring dev tools
 Autowire or Constructor injection etc
 
-Docker - move to java version 11 and document 
-
 
 ## Notes
 This code uses Spring @RestController annotation, which marks the class as a controller where every method returns a domain object instead of a view. It is shorthand for including both @Controller and @ResponseBody.

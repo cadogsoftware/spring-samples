@@ -29,6 +29,9 @@ https://spring.io/guides/gs/testing-restdocs/
 Longer: https://spring.io/guides/topicals/spring-boot-docker/
 
 Spring dev tools
+Autowire or Constructor injection etc
+
+
 
 
 

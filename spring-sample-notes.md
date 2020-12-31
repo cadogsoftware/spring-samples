@@ -8,7 +8,6 @@ Deploying
 
 https://spring.io/guides/gs/validating-form-input/
 https://spring.io/guides/gs/handling-form-submission/
-https://spring.io/guides/gs/testing-web/
 
 https://spring.io/guides/gs/messaging-rabbitmq/
 https://spring.io/guides/gs/messaging-jms/
@@ -31,9 +30,7 @@ Longer: https://spring.io/guides/topicals/spring-boot-docker/
 Spring dev tools
 Autowire or Constructor injection etc
 
-
-
-
+Docker - move to java version 11 and document 
 
 
 ## Notes

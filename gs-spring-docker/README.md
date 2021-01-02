@@ -12,3 +12,27 @@ This does the mvn package step and the build image step:
 Then you can run as normal:
 docker run -p 8080:8080 richtest/gs-spring-boot-docker
 
+## Useful docker commands
+(taken from https://spring.io/guides/topicals/spring-boot-docker/)
+
+To get a shell into the image:
+```text
+$ docker run -ti --entrypoint /bin/sh myorg/myapp
+/ # ls
+app.jar  dev      home     media    proc     run      srv      tmp      var
+bin      etc      lib      mnt      root     sbin     sys      usr
+/ #
+```
+
+If you have a running container:
+```text
+$ docker run --name myapp -ti --entrypoint /bin/sh myorg/myapp
+$ docker exec -ti myapp /bin/sh
+/ #
+```
+
+##  Notes
+It would be better to use a multi-stage build in the Dockerfile - this performs the maven steps as well as the docker build
+so that you only need to run one command. See here for more info: https://spring.io/guides/topicals/spring-boot-docker/
+
+

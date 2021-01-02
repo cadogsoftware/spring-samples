@@ -11,7 +11,7 @@
 	<groupId>com.rich.test</groupId>
 	<artifactId>web.testing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>web.testing</name>
+	<firstName>web.testing</firstName>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

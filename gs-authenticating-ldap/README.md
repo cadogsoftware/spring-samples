@@ -6,7 +6,7 @@ https://spring.io/guides/gs/authenticating-ldap/
 
 Alternatively, you can build the JAR file with ./mvnw clean package and then run the JAR file, as follows:
 
-java -jar target/<name>
+java -jar target/<firstName>
 
 ## Test like this:
 

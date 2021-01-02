@@ -11,7 +11,7 @@
 	<groupId>com.rich.test</groupId>
 	<artifactId>docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>docker</name>
+	<firstName>docker</firstName>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

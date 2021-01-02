@@ -39,7 +39,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/employees")
-    CollectionModel<EntityModel<Employee>> all() {
+    public CollectionModel<EntityModel<Employee>> all() {
 
         List<EntityModel<Employee>> employees = repository.findAll().stream() //
                 .map(assembler::toModel) //
@@ -62,7 +62,7 @@ public class EmployeeController {
 
         return repository.findById(id)
                 .map(employee -> {
-                    employee.setName(newEmployee.getName());
+                    employee.setFirstName(newEmployee.getFirstName());
                     employee.setRole(newEmployee.getRole());
                     return repository.save(employee);
                 })

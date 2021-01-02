@@ -24,6 +24,11 @@ https://spring.io/guides/gs/testing-restdocs/
 Spring dev tools
 Autowire or Constructor injection etc
 
+mvnw (do we need to clean first?)
+Hateoas
+
+
+
 
 ## Notes
 This code uses Spring @RestController annotation, which marks the class as a controller where every method returns a domain object instead of a view. It is shorthand for including both @Controller and @ResponseBody.

@@ -26,7 +26,7 @@ bin      etc      lib      mnt      root     sbin     sys      usr
 
 If you have a running container:
 ```text
-$ docker run --firstName myapp -ti --entrypoint /bin/sh myorg/myapp
+$ docker run --name myapp -ti --entrypoint /bin/sh myorg/myapp
 $ docker exec -ti myapp /bin/sh
 / #
 ```

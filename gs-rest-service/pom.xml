@@ -11,7 +11,7 @@
 	<groupId>com.rich.test</groupId>
 	<artifactId>gs-rest-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<firstName>gs-rest-service</firstName>
+	<name>gs-rest-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

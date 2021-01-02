@@ -11,7 +11,7 @@
 	<groupId>com.rich.test</groupId>
 	<artifactId>form.submission</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<firstName>form.submission</firstName>
+	<name>form.submission</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

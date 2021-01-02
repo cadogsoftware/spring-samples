@@ -11,7 +11,7 @@
 	<groupId>com.rich.test</groupId>
 	<artifactId>spring.boot.starter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<firstName>spring.boot.starter</firstName>
+	<name>spring.boot.starter</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

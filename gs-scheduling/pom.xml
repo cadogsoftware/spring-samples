@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>scheduling-tasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<firstName>scheduling-tasks</firstName>
+	<name>scheduling-tasks</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

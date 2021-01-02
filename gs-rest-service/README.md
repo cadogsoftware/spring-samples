@@ -13,4 +13,4 @@ GET http://localhost:8080/greeting
 
 or
 
-GET http://localhost:8080/greeting?firstName=Rich
+GET http://localhost:8080/greeting?name=Rich

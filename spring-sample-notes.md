@@ -12,7 +12,6 @@ https://spring.io/guides/gs/messaging-rabbitmq/
 https://spring.io/guides/gs/messaging-jms/
 
 https://spring.io/guides/gs/accessing-data-mongodb/
-https://spring.io/guides/gs/accessing-mongodb-data-rest/
 
 https://spring.io/guides/gs/batch-processing/
 https://spring.io/guides/gs/managing-transactions/

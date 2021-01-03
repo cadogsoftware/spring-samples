@@ -10,7 +10,8 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource(collectionResourceRel = "people", path = "people") // Only required so that I can change the path from /persons to /people
 public interface PersonRepository extends MongoRepository<Person, String> {
 
-    List<Person> findByLastName(@Param("name") String name);
+    List<Person> findByFirstName(@Param("firstName") String firstName);
+    List<Person> findByLastName(@Param("lastName") String lastName);
 
     //By default, Spring Boot tries to connect to a locally hosted instance of MongoDB. Read the reference docs for how to point your application to an instance of MongoDB that is hosted elsewhere.
 
